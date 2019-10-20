@@ -184,10 +184,12 @@ def read_proc_filter(p_excel_input_file, p_sheet_name, p_header_row, p_module, p
                 and ( row_tmp[3] == 'Y' )
             ):
             process_row.append(row_tmp)
-            print(f"idx:{idx} row: {row[0].value}")
+            #print(f"idx:{idx} row: {row[0].value}")
 
     for rec in process_row:
-        print(f"rec: {rec}")
+        l_tables[rec[2]] = [rec[0], rec[1], ]
+
+    #print(f"rec: {l_tables}")
 
     return l_tables
 

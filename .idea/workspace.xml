@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a171811-081d-41cf-aa8f-741ec683d584" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Compare_Table_Data_232737593261.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Compare_Table_Data_232921444019.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Compare_Table_Data_233823001656.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Compare_Table_Data_233952045194.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompareMigData.conf" beforeDir="false" afterPath="$PROJECT_DIR$/CompareMigData.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CompareQuiresList.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/CompareQuiresList.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBProcesser.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBProcesser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/global_functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_pg.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_pg.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xlsx_processer.py" beforeDir="false" afterPath="$PROJECT_DIR$/xlsx_processer.py" afterDir="false" />
     </list>

@@ -104,18 +104,18 @@ if __name__ == "__main__":
                 print(f"Output File Created [{xlsx_file_name}]")
 
         input_xlsx_file_name = Path(xlsx_file_name).resolve()
-        for l_tables in read_proc_filter(l_input_master_file, l_master_sh, 1, l_module_arg, l_form_arg, l_table_arg):
-            print(f"{l_tables}")
-
-        raise IOError("User Exit - Test")
+        l_tables = read_proc_filter(l_input_master_file, l_master_sh, 1, l_module_arg, l_form_arg, l_table_arg)
+        print(f"{l_tables}")
 
         s_con, d_con = getConnection(src_dburl, dest_dburl)
         print(f"Main: Connection obtained")
 
-        for l_s_tbl, l_d_tbl, lSrcQuery, lDestQuery, lSrcKeys, lDestKeys in read_quires(l_input_master_file, l_table_col_sh, 1, l_StLevelOpt):
+        for l_s_tbl, l_d_tbl, lSrcQuery, lDestQuery, lSrcKeys, lDestKeys in read_quires(l_input_master_file, l_table_col_sh, 1):
             # print(f"****Main: {lSrcQuery} - {lDestQuery} - {lSrcKeys} - {lDestKeys}")
-            DBProcesser_main(s_con, d_con, lSrcQuery, lDestQuery, l_s_tbl, l_d_tbl, lSrcKeys, lDestKeys,
-                             input_xlsx_file_name)
+            if l_s_tbl in l_tables:
+                DBProcesser_main(s_con, d_con, lSrcQuery, lDestQuery, l_s_tbl, l_d_tbl, lSrcKeys, lDestKeys, input_xlsx_file_name)
+            else:
+                print(f"Main: Table Name {l_s_tbl}, ignored")
     except KeyboardInterrupt:
         print(f"Exception: {err.format_exc()}")
     except:
