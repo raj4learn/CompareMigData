@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1a171811-081d-41cf-aa8f-741ec683d584" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompareMigData.conf" beforeDir="false" afterPath="$PROJECT_DIR$/CompareMigData.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompareQuiresList.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/CompareQuiresList.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBProcesser.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBProcesser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/global_functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_pg.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_pg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xlsx_processer.py" beforeDir="false" afterPath="$PROJECT_DIR$/xlsx_processer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +22,11 @@
     <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="ProjectId" id="1S6tmrNSju0QdZH8zRtDiww1L61" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -79,6 +87,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -86,5 +119,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

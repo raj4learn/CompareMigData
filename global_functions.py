@@ -33,7 +33,9 @@ def create_work_book(p_xlsx_file_name, p_dest_out_file_sheet = "Mapping", p_colu
         wb.close()
 
 
-def conform_exit():
+def conform_exit(p_log = 0):
+    if p_log == 1:
+        print(f"Please provide feedback by writing to rajkumar.oppilamani@metricstream.com")
     print("Program Exiting")
     exit(0)
 
